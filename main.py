@@ -8,7 +8,7 @@ duration = 1.0
 t = np.linspace(0, duration, int(sample_rate * duration))
 
 # Construct the composite signal (mixing frequencies)
-# Standard A note (440Hz) mixed with it's octave (880Hz)
+# Standard A note (440Hz) mixed with its octave (880Hz)
 
 clean_signal = np.sin(2 * np.pi * 440 * t) + np.sin(2 * np.pi * 880 * t)
 
